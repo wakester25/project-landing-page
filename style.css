@@ -169,3 +169,16 @@ body {
     font-size: 18px;
     font-weight: bold;
 }
+
+/* Footer Section */
+
+.footer-section {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 25px 0;
+}
+
+.footer-text {
+    color:#E5E7EB;
+}
