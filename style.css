@@ -4,6 +4,7 @@ body {
 }
 
 /* First Section */
+/* To try: To align header / text and links / image, use a flexbox for each and set to column */
 
 .header-section {
     background-color: #1F2937;
@@ -105,6 +106,8 @@ body {
     border-radius: 12%;
     margin: 0 auto 5px auto;
 }
+
+/* Third section */
 
 .qoute-section {
     background-color: #E5E7EB;
