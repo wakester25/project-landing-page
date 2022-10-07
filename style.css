@@ -4,30 +4,33 @@ body {
 }
 
 /* First Section */
-/* To try: To align header / text and links / image, use a flexbox for each and set to column */
 
 .header-section {
+    display: flex;
     background-color: #1F2937;
+    padding: 20px 100px 100px 100px;
+    justify-content: center;
+    gap: 125px;
+}
+
+.header-left,
+.header-right {
     display: flex;
     flex-direction: column;
-    padding: 20px 200px 100px 200px;
+    gap: 80px;
 }
 
-.header-nav {
-    display: flex;
-    margin-bottom: 100px;
-    justify-content: space-between;
+.header-left {
+    max-width: 600px;
 }
 
-.header-content {
-    display: flex;
-    justify-content: center;
-    gap: 52px;
+.header-logo,
+.header-title {
+    color: #F9FAF8;
 }
 
 .header-logo {
     font-size: 24px;
-    font-weight: bold;
 }
 
 .header-title {
@@ -35,41 +38,31 @@ body {
     font-weight: 900;
 }
 
-.header-title,
-.header-logo {
-    color: #F9FAF8;
-}
-
-.header-link {
-    text-decoration: none;
-    margin-left: 20px;
-
-}
-
-.header-link,
 .header-text,
-.header-image {
+.header-link {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.header-container {
-    width: 500px;
-}
-
-.header-button {
-    margin-top: 5px;
-    padding: 5px 20px 5px 20px;
-    background-color: #3882F6;
-    border-radius: 12px;
-    border: none;
-    color: #E5E7EB;
-    font-weight: bold;
+.header-link {
+    text-decoration: none;
+    margin-left: 10px; 
 }
 
 .header-image {
-    background-color: #b8b7b6;
+    color: #E5E7EB;
     padding: 100px;
+    background-color:#A8A8A8;
+}
+
+.header-button {
+    margin-top: 10px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 12px;
+    font-weight: bold;
+    padding: 3px 12px 3px 12px;
+    border-style: none;
 }
 
 /* Second section */
